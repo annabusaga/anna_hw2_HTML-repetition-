@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -13,7 +19,7 @@
       <nav>
         <ul class="navigation">
           <li class="nav-list">
-            <a class="nav-link" href="./index.html">Студія</a>
+            <a class="nav-link current" href="./index.html">Студія</a>
           </li>
           <li class="nav-list">
             <a class="nav-link" href="./portfolio.html">Портфоліо</a>
@@ -79,29 +85,33 @@
       </section>
 
       <section>
-        <h2 class="">Чим ми займаємося</h2>
-        <ul>
-          <li>
-            <a href=""
+        <h2 class="about-title">Чим ми займаємося</h2>
+
+        <ul class="about-list">
+          <li class="about-item">
+            <a class="about-link" href=""
               ><img
+                class="about-image"
                 src="./images/main_page_hw1/box1.jpg"
                 alt="Людина друкує на клавіатурі"
                 width="370"
                 height="294"
             /></a>
           </li>
-          <li>
-            <a href=""
+          <li class="about-item">
+            <a class="about-link" href=""
               ><img
+                class="about-image"
                 src="./images/main_page_hw1/box2.jpg"
                 alt="Людина тримає в руці телефон"
                 width="370"
                 height="294"
             /></a>
           </li>
-          <li>
-            <a href=""
+          <li class="about-item">
+            <a class="about-link" href=""
               ><img
+                class="about-image"
                 src="./images/main_page_hw1/box3.jpg"
                 alt="Людина тримає в руці планшет"
                 width="370"
@@ -112,65 +122,72 @@
       </section>
 
       <section>
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+        <h2 class="team">Наша команда</h2>
+        <ul class="team-list">
+          <li class="team-item">
             <img
+              class="team-image"
               src="./images/main_page_hw1/face1.jpg"
               alt="Чоловік у бордовій сорочці"
               width="270"
               height="260"
             />
-            <h2>Ігор Дем'яненко</h2>
-            <p>Product Designer</p>
+            <h2 class="team-name">Ігор Дем'яненко</h2>
+            <p class="team-text">Product Designer</p>
           </li>
 
-          <li>
+          <li class="team-item">
             <img
+              class="team-image"
               src="./images/main_page_hw1/face2.jpg"
               alt="Жінка у окулярах"
               width="270"
               height="260"
             />
-            <h2>Ольга Рєпіна</h2>
-            <p>Frontend Developer</p>
+            <h2 class="team-name">Ольга Рєпіна</h2>
+            <p class="team-text">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="team-item">
             <img
+              class="team-image"
               src="./images/main_page_hw1/face3.jpg"
               alt="Чоловік у білій сорочці"
               width="270"
               height="260"
             />
-            <h2>Микола Тарасов</h2>
-            <p>Marketing</p>
+            <h2 class="team-name">Микола Тарасов</h2>
+            <p class="team-text">Marketing</p>
           </li>
 
-          <li>
+          <li class="team-item">
             <img
+              class="team-image"
               src="./images/main_page_hw1/face4.jpg"
               alt="Чоловік у чорній майці"
               width="270"
               height="260"
             />
-            <h2>Михайло Єрмаков</h2>
-            <p>UI Designer</p>
+            <h2 class="team-name">Михайло Єрмаков</h2>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo" href=""> <span class="blue-logo">Web</span>Studio</a>
+    <footer class="footer">
+      <a class="logo" href="">
+        <span class="blue-logo">Web</span>
+        <span class="white-logo"> Studio </span></a
+      >
       <address>м. Київ, пр-т Лесі Українки, 26</address>
       <ul class="contacts-list">
         <li class="contact-item">
-          <a class="contact-email" href="mailto:info@devstudio.com"
+          <a class="footer-email" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li class="contact-item">
-          <a class="contact-number" href="tel:+380961111111"
+          <a class="footer-number" href="tel:+380961111111"
             >+38 096 111 11 11</a
           >
         </li>

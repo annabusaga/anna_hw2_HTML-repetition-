@@ -1,15 +1,208 @@
-:root{
+:root {
+  --blue-color-accent: #2196f3;
+  --main-dark-color: #212121;
+  --grey-color: #757575;
+  --black-logo-color: #000000;
+  --white-color: #ffffff;
+  --footer-background-color: #2f303a;
+}
 
-    --blue-color-accent:#2196F3;
-    --main-dark-color:#212121;
-    --grey-color:#757575;
-    --black-logo-color:#000000;
-    --white-color:#FFFFFF;
-    --footer-background-color:#2F303A;
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-dark-color);
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2px;
+        letter-spacing: 0.03em;
+        color: #000000;
+}
+
+.blue-logo {
+    color: var(--blue-color-accent);
+}
+
+.white-logo{
+    color: var(--white-color);
+}
+.navigation {
+    list-style: none;
+    
+}
+
+.nav-list {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,1px;
+        letter-spacing: 0.02em;
+        
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--main-dark-color);
+}
+
+.nav-link:hover, .nav-link:focus  {
+    color: var(--blue-color-accent);
+}
+
+.contacts-list {
+}
+
+.contact-item {
+    list-style: none;
+   
+}
+
+.contact-email {
+    color: var(--grey-color);
+    text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,1px;
+        letter-spacing: 0.02em;
+}
+
+.contact-number {
+    color: var(--grey-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,1px
+    letter-spacing: 0.02em;
+    
+       
+}
+
+.contact-email:hover,
+.contact-email:focus {
+  color: var(--blue-color-accent);
+}
+
+.contact-number:hover,
+.contact-number:focus {
+  color: var(--blue-color-accent);
+}
+
+.footer-email:hover,
+.footer-email:focus {
+  color: var(--blue-color-accent);
 }
 
 
-body{
+.footer-number{
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-number{
 
 }
 
+.footer-number:hover,
+.footer-number:focus {
+  color: var(--blue-color-accent);
+}
+
+.hero-title {
+}
+
+.hero-button {
+}
+
+.features-main-title {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-title {
+}
+
+.features-text {
+}
+
+.about-title {
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+.about-link {
+}
+
+.about-image {
+}
+
+.team {
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-image {
+}
+
+.team-name {
+}
+
+.team-text {
+}
+
+/* портфоліо */
+
+.portfolio-title {
+}
+
+.filter-nav {
+}
+
+.filter-item {
+}
+
+.filter-btn {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-image {
+}
+
+.portfolio-name {
+}
+
+.portfolio-text {
+}
+
+.current{
+    color: var(--blue-color-accent);
+}
+
+.footer{
+    background-color: var(--footer-background-color);
+}
