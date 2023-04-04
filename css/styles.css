@@ -12,6 +12,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-dark-color);
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -19,21 +20,21 @@ body {
     font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.2px;
+        line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #000000;
+        color: var(--black-logo-color);
 }
 
 .location{
     
         font-size: 14px;
         font-style: normal;
-        line-height: 1.7px;
+        line-height: 1.7;
         /* or 171% */
     
         letter-spacing: 0.03em;
     
-        color: #FFFFFF;
+        color: var(--white-color)
 }
 
 .blue-logo {
@@ -51,7 +52,7 @@ body {
 .nav-list {
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,1px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         
 }
@@ -78,7 +79,7 @@ body {
     text-decoration: none;
         font-weight: 500;
         font-size: 14px;
-        line-height: 1,1px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
 }
 
@@ -87,10 +88,8 @@ body {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1px
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    
-       
 }
 
 .contact-email:hover,
@@ -112,7 +111,7 @@ body {
 .footer-number{
     text-decoration: none;
         font-size: 14px;
-        line-height: 1.7px;
+        line-height: 1.7;
         /* or 171% */
     
         letter-spacing: 0.03em;
@@ -124,7 +123,7 @@ body {
     text-decoration: none;
 
         font-size: 14px;
-        line-height: 1.7px;
+        line-height: 1.7;
         /* or 171% */
     
         letter-spacing: 0.03em;
@@ -142,7 +141,7 @@ body {
     
         font-weight: 900;
         font-size: 44px;
-        line-height: 1.4px;
+        line-height: 1.4;
         /* or 136% */
     
         text-align: center;
@@ -160,7 +159,7 @@ body {
         
             font-weight: 700;
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.9;
             /* identical to box height, or 188% */
 
             letter-spacing: 0.06em;
@@ -182,7 +181,7 @@ body {
 .features-main-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.2px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -202,7 +201,7 @@ body {
     
         font-weight: 700;
         font-size: 14px;
-        line-height: 1.1px;
+        line-height: 1.1;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
@@ -215,7 +214,7 @@ body {
     
         
         font-size: 14px;
-        line-height: 1.7px;
+        line-height: 1.7;
         /* or 171% */
     
         letter-spacing: 0.03em;
@@ -227,7 +226,7 @@ body {
     
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.2px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -247,10 +246,18 @@ body {
 .about-image {
 }
 
+.team{
+    background-color:var(--button-background-color);
+}
+
+.team-box{
+    background-color: var(--white-color);
+}
+
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.2px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
     
@@ -270,7 +277,7 @@ body {
 .team-name {
     font-weight: 500;
         font-size: 16px;
-        line-height: 1.1px;
+        line-height: 1.1;
         /* identical to box height */
     
        
@@ -283,7 +290,7 @@ body {
 
    
         font-size: 16px;
-        line-height: 1.1px;
+        line-height: 1.1;
         /* identical to box height */
     
 
@@ -311,7 +318,7 @@ body {
         
             font-weight: 500;
             font-size: 16px;
-            line-height: 26px;
+            line-height: calc(26/16);  
             /* identical to box height, or 162% */
             letter-spacing: 0.03em;
             background-color: var(--button-background-color);   
@@ -321,21 +328,23 @@ body {
         
 }
 
-.active-btn{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
+.active-btn,
+.filter-btn:hover,
+.filter-btn:focus{
+        /* font-weight: 500; */
+        /* font-size: 16px; */
+        /* line-height: 1.6; */
         /* identical to box height, or 162% */
     
-        letter-spacing: 0.03em;
-        background-color: var(--button-background-color);
+        /* letter-spacing: 0.03em; */
+        background-color: var(--blue-color-accent);
     
         color: var(--white-color);
 }
 
-.filter-btn:hover, .filter-btn:focus{
+/* .filter-btn:hover, .filter-btn:focus{
 background-color: var(--blue-color-accent);
-}
+} */
 
 .portfolio-list {
 }
@@ -351,7 +360,7 @@ background-color: var(--blue-color-accent);
   
     font-weight: 700;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 2;
     /* identical to box height, or 200% */
 
     letter-spacing: 0.06em;
@@ -364,7 +373,7 @@ background-color: var(--blue-color-accent);
 .portfolio-text {
     
         font-size: 16px;
-        line-height: 1.8px;
+        line-height: 1.8;
         /* identical to box height, or 188% */
     
         letter-spacing: 0.03em;
