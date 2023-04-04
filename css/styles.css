@@ -5,6 +5,8 @@
   --black-logo-color: #000000;
   --white-color: #ffffff;
   --footer-background-color: #2f303a;
+  --button-background-color:#F5F4FA;
+  
 }
 
 body {
@@ -195,24 +197,82 @@ body {
 }
 
 .filter-nav {
+   
+    
 }
 
 .filter-item {
+    list-style: none;
+    
 }
 
 .filter-btn {
+        
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            /* identical to box height, or 162% */
+            letter-spacing: 0.03em;
+            background-color: var(--button-background-color);   
+            border: none;   
+            
+        
+}
+
+.active-btn{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        letter-spacing: 0.03em;
+        background-color: var(--button-background-color);
+    
+        color: var(--white-color);
+}
+
+.filter-btn:hover, .filter-btn:focus{
+background-color: var(--blue-color-accent);
 }
 
 .portfolio-list {
 }
 
 .portfolio-item {
+    list-style: none;
 }
 
 .portfolio-image {
 }
 
 .portfolio-name {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;0000000eeeeeellllllll.,,,l,,,,m,,,,,,,.,,....c,cc: .cxlzjsduudhudheyeyd 7udshqkweudfoe 7eugkgkfkmgfkvk;
+
+
+
+
+
+
+        visibility: .vlflvf;
+
+        \
+
+
+
+
+
+
+
+             qwer
 }
 
 .portfolio-text {
