@@ -4,7 +4,7 @@
   --grey-color: #757575;
   --black-logo-color: #000000;
   --white-color: #ffffff;
-  --footer-background-color: #2f303a;
+  --dark-background-color: #2f303a;
   --button-background-color:#F5F4FA;
   
 }
@@ -27,6 +27,7 @@ body {
 .location{
     
         font-size: 14px;
+        font-style: normal;
         line-height: 1.7px;
         /* or 171% */
     
@@ -138,30 +139,103 @@ body {
 }
 
 .hero-title {
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4px;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color:var(--white-color);
 }
 
 .hero-button {
+    cursor: pointer;
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            /* identical to box height, or 188% */
+
+            letter-spacing: 0.06em;
+            color: var(--white-color);
+
+        background-color: var(--blue-color-accent);
+        border: none;
+     
+        
+        
 }
 
+.hero-button:hover,
+.hero-button:focus{
+    background-color: tomato;
+}
+
+
 .features-main-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--main-dark-color);
+    
+    
 }
 
 .features-list {
+    list-style: none;
 }
 
 .features-item {
 }
 
 .features-title {
+    
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        
 }
+    
 
 .features-text {
+
+    
+        
+        font-size: 14px;
+        line-height: 1.7px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: var(--grey-color);
 }
 
 .about-title {
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color:var(--main-dark-color);
 }
 
 .about-list {
+    list-style: none;
 }
 
 .about-item {
@@ -173,10 +247,18 @@ body {
 .about-image {
 }
 
-.team {
+.team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--main-dark-color);
 }
 
 .team-list {
+    list-style: none;
 }
 
 .team-item {
@@ -186,9 +268,28 @@ body {
 }
 
 .team-name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1px;
+        /* identical to box height */
+    
+       
+        letter-spacing: 0.03em;
+    
+       
 }
 
 .team-text {
+
+   
+        font-size: 16px;
+        line-height: 1.1px;
+        /* identical to box height */
+    
+
+        letter-spacing: 0.03em;
+    
+        color: var(--grey-color);
 }
 
 /* портфоліо */
@@ -215,6 +316,7 @@ body {
             letter-spacing: 0.03em;
             background-color: var(--button-background-color);   
             border: none;   
+            cursor: pointer;
             
         
 }
@@ -246,36 +348,28 @@ background-color: var(--blue-color-accent);
 }
 
 .portfolio-name {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 36px;
-        /* identical to box height, or 200% */
-    
-        letter-spacing: 0.06em;
-    
-        color: #212121;0000000eeeeeellllllll.,,,l,,,,m,,,,,,,.,,....c,cc: .cxlzjsduudhudheyeyd 7udshqkweudfoe 7eugkgkfkmgfkvk;
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    /* identical to box height, or 200% */
 
+    letter-spacing: 0.06em;
 
-
-
-
-
-        visibility: .vlflvf;
-
-        \
-
-
-
-
-
-
-
-             qwer
+    color: var(--main-dark-color)
 }
 
+
+
 .portfolio-text {
+    
+        font-size: 16px;
+        line-height: 1.8px;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+    
+        color:var(--grey-color);
 }
 
 .current{
@@ -283,5 +377,22 @@ background-color: var(--blue-color-accent);
 }
 
 .footer{
-    background-color: var(--footer-background-color);
+    background-color: var(--dark-background-color);
 }
+
+.footer{
+    width: 1600px;
+    height: 252px;
+}
+
+
+.hero-section{
+    
+        width: 1600px;
+        height: 600px;
+        
+    
+        background-color: var(--dark-background-color);
+}
+
+
